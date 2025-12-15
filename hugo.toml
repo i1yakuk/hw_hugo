@@ -1,4 +1,22 @@
 baseURL = "https://i1yakuk.github.io/hw_hugo/"
 theme = "PaperMod"
 title = "Ilya Site"
-Add-Content -Path hugo.toml -Value "`n[params]`n  assets = [`"css/custom.css`"]"
+languageCode = "en"
+
+[params]
+  assets = ["css/custom.css"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3

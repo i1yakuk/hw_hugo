@@ -1,26 +1,26 @@
-п»їbaseURL = "https://i1yakuk.github.io/hw_hugo/"
+baseURL = "https://i1yakuk.github.io/hw_hugo/"
 languageCode = "ru-ru"
-title = "Р»РѕРі РІРіРµРЅРёСЏ Рѕ РІРµР±-СЂР°Р·СЂР°Р±РѕС‚РєРµ"
+title = "лог вгения о веб-разработке"
 theme = "PaperMod"
 paginate = 5
 
 [params]
-  author = "РІРіРµРЅРёР№"
-  description = "РѕР№ Р±Р»РѕРі Рѕ Hugo, РІРµР±-СЂР°Р·СЂР°Р±РѕС‚РєРµ Рё РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРё"
+  author = "вгений"
+  description = "ой блог о Hugo, веб-разработке и программировании"
   defaultTheme = "auto"
   ShowShareButtons = true
   ShowReadingTime = true
   
 [menu]
   [[menu.main]]
-    name = "рџЏ  Р»Р°РІРЅР°СЏ"
+    name = "?? лавная"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "рџ“ќ Р»РѕРі"
+    name = "?? лог"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "в„№пёЏ Р±Рѕ РјРЅРµ"
+    name = "?? бо мне"
     url = "/about/"
     weight = 3

@@ -1,0 +1,26 @@
+﻿baseURL = "https://i1yakuk.github.io/hw_hugo/"
+languageCode = "ru-ru"
+title = "лог вгения о веб-разработке"
+theme = "PaperMod"
+paginate = 5
+
+[params]
+  author = "вгений"
+  description = "ой блог о Hugo, веб-разработке и программировании"
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  
+[menu]
+  [[menu.main]]
+    name = "🏠 лавная"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "📝 лог"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "ℹ️ бо мне"
+    url = "/about/"
+    weight = 3

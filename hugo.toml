@@ -1,4 +1,4 @@
-﻿baseURL = "https://i1yakuk.github.io/hw_hugo/"
-languageCode = "ru"
-title = "лог льи"
+baseURL = "https://i1yakuk.github.io/hw_hugo/"
 theme = "PaperMod"
+title = "My Hugo Site"
+languageCode = "en"

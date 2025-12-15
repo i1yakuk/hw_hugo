@@ -1,0 +1,14 @@
+[[menu.main]]
+  name = "??????"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "???"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "?? ???"
+  url = "/about/"
+  weight = 3

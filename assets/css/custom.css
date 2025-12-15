@@ -1,0 +1,30 @@
+﻿/* справление русских шрифтов */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* Фикс для русского текста */
+.post-content {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+}
+
+/* еню */
+nav ul {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* аголовки */
+h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* Фикс обрезанного текста */
+* {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

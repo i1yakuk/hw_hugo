@@ -1,26 +1,4 @@
 ﻿baseURL = "https://i1yakuk.github.io/hw_hugo/"
-languageCode = "ru-ru"
-title = "Блог Ильи о веб-разработке"
+languageCode = "ru"
+title = "лог льи"
 theme = "PaperMod"
-paginate = 5
-
-[params]
-  author = "Илья"
-  description = "Мой блог о Hugo, веб-разработке и программировании"
-  defaultTheme = "auto"
-  ShowShareButtons = true
-  ShowReadingTime = true
-
-[menu]
-  [[menu.main]]
-    name = "Главная"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Блог"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    name = "Обо мне"
-    url = "/about/"
-    weight = 3

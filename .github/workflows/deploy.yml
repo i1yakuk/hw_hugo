@@ -2,23 +2,26 @@ name: Deploy Hugo
 on: [push]
 jobs:
   deploy:
+    permissions:
+      contents: write  
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
-          
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
           extended: true
-          
+
       - name: Build
         run: hugo --minify
-        
+
+      # Обновите версию действия до v4:
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public

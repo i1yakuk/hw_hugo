@@ -6,7 +6,6 @@ theme = 'PaperMod'
 [params]
   author = 'Илья'
   description = 'Небольшой Сайт о себе и тем,чем занимаюсь'
-  assets = ["css/custom.css"]
 
 [menu]
   [[menu.main]]

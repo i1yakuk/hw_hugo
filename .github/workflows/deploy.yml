@@ -18,7 +18,23 @@ jobs:
 
       - name: Build
         run: hugo --minify
+      - name: Debug - List files in root
+        run: |
+          echo "=== Files in the root folder ==="
+          ls -la
 
+      - name: Debug - Check public folder
+    run: |
+      echo "=== Checking public/ folder ==="
+      if [ -d "./public" ]; then
+        echo "Folder 'public' exists."
+        echo "=== Files inside public/ ==="
+        ls -la ./public
+        echo "=== Is there an index.html? ==="
+        ls -la ./public/index.html 2>/dev/null && echo "index.html found!" || echo "index.html NOT found!"
+      else
+        echo "ERROR: Folder 'public' does NOT exist after building!"
+      fi
       # Обновите версию действия до v4:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

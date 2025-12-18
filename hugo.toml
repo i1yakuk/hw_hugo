@@ -1,22 +1,22 @@
-baseURL = "https://i1yakuk.github.io/hw_hugo/"
-theme = "PaperMod"
-title = "Ilya Site"
-languageCode = "en"
+baseURL = 'https://i1yakuk.github.io/hw_hugo/'
+languageCode = 'ru-ru'
+title = 'Ilya Site'
+theme = 'PaperMod'
 
 [params]
-  assets = ["css/custom.css"]
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Blog"
-  url = "/posts/"
-  weight = 2
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 3
+  author = 'Илья'
+  description = 'Небольшой Сайт о себе и тем,чем занимаюсь'
+  
+[menu]
+  [[menu.main]]
+    name = 'Главная'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'О сайте'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Блог'
+    url = '/posts/'
+    weight = 3
